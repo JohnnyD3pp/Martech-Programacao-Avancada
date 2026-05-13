@@ -13,6 +13,9 @@ O material aborda problemas que exigem maior estruturação lógica, incluindo p
 - Algoritmo da mochila
 - Maior subsequência comum
 - Contagem de padrões em matriz
+- Sistemas de recomendação
+- Similaridade entre usuários
+- Agrupamento com K-Means
 - Resolução de problemas computacionais
 
 ## Estrutura do Repositório
@@ -22,7 +25,8 @@ O material aborda problemas que exigem maior estruturação lógica, incluindo p
 ├── Dicionário/
 ├── Manipulação de bits/
 ├── Matriz/
-└── Programação Dinâmica/
+├── Programação Dinâmica/
+└── Sistema de Recomendação/
 ```
 
 ## Descrição das Pastas
@@ -91,6 +95,23 @@ Arquivo principal:
 
 - `Substring.py`
 
+### Sistema de Recomendação
+
+Contém exercícios introdutórios relacionados a sistemas de recomendação e agrupamento de dados.
+
+Principais temas:
+
+- Cálculo de distância entre usuários
+- Recomendação por vizinho mais próximo
+- Preenchimento de preferência ausente com base em similaridade
+- Estrutura inicial do algoritmo K-Means
+- Definição de centros e clusters
+
+Arquivos:
+
+- `knn_v1.py`
+- `kmeans.py`
+
 ## Tecnologias Utilizadas
 
 - **Python**
@@ -99,6 +120,9 @@ Arquivo principal:
 - **Matrizes**
 - **Dicionários**
 - **Algoritmos**
+- **Sistemas de Recomendação**
+- **KNN**
+- **K-Means**
 
 ## Como Executar os Arquivos
 
@@ -117,6 +141,8 @@ python Mochila01.py
 ```
 
 Alguns arquivos solicitam entrada pelo teclado; outros executam com valores definidos diretamente no código.
+
+O arquivo `kmeans.py` apresenta uma estrutura inicial do algoritmo K-Means e pode exigir complementação das funções auxiliares antes da execução completa.
 
 ## Objetivo do Repositório
 
